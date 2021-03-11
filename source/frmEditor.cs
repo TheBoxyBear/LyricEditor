@@ -34,7 +34,7 @@ namespace LyricEditor
             fileMenu_Reload.Click += (sender, e) => LoadFile(openedFile);
             optionsMenu_DarkMode.Click += menuDarkMode_Click;
 
-            aboutMenu.Click += (sender, e) => MessageBox.Show("Crated by TheBoxyBear.\n\nTo download the latest version, report bugs or see the source code, visit: https://github.com/theboxybear/lyriceditor\n\nClone Hero Lyric Editor is powered by the ChartTools library, available at: https://github.com/theboxybear/charttools\n\nThis software is not affiliated with the Clone Hero video game.", "About");
+            aboutMenu.Click += (sender, e) => MessageBox.Show("Created by TheBoxyBear.\n\nTo download the latest version, report bugs or see the source code, visit: https://github.com/theboxybear/lyriceditor\n\nClone Hero Lyric Editor is powered by the ChartTools library, available at: https://github.com/theboxybear/charttools\n\nThis software is not affiliated with the Clone Hero video game.", "About");
             helpMenu.Click += (sender, e) => MessageBox.Show("Each line is a seperate phrase.\n\nTo seperate a word into syllables, add a hyphen betwen each syllable.\n\nTo add a literal hyphen, replace it with with a equal sign.\n\nSyllables with spaces between other characters will be treated as seperate syllables.", "Help");
         }
         public frmEditor(string file) : this() => OpenFile(file);
