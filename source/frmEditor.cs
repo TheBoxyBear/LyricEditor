@@ -44,9 +44,10 @@ namespace LyricEditor
         /// </summary>
         private void menuOpen_Click(object sender, EventArgs e)
         {
-            using (OpenFileDialog dialog = new OpenFileDialog() { Filter = "Chart files|*.chart" })
-                if (dialog.ShowDialog() == DialogResult.OK)
-                    OpenFile(dialog.FileName);
+            using OpenFileDialog dialog = new OpenFileDialog() { Filter = "Chart files|*.chart" };
+
+            if (dialog.ShowDialog() == DialogResult.OK)
+                OpenFile(dialog.FileName);
         }
         /// <summary>
         /// On click on fileMenu_Save
@@ -57,9 +58,9 @@ namespace LyricEditor
         /// </summary>
         private void menuSaveAs_Click(object sender, EventArgs e)
         {
-            using (SaveFileDialog dialog = new SaveFileDialog() { Filter = "Chart files|*.chart" })
-                if (dialog.ShowDialog() == DialogResult.OK)
-                    SaveFile(dialog.FileName);
+            using SaveFileDialog dialog = new SaveFileDialog() { Filter = "Chart files|*.chart" };
+            if (dialog.ShowDialog() == DialogResult.OK)
+                SaveFile(dialog.FileName);
         }
 
         /// <summary>
