@@ -3,7 +3,7 @@ The Clone Hero Lyric Editor is a software built in C# .NET Core with the purpose
 
 Special thanks to [FireFox](https://github.com/FireFox2000000) for making the Moonscraper open-source and to members of the [Moonscraper Discord](https://discord.gg/x3JG3sPv), including but not limited to DarkAngel2096, FireFox, Kanske, mdsitton, Spachi and XEntombmentX for their help in researching.
 
-This software is not affiliated with Clone Hero or Moonscraper.
+This software is an independant project not affiliated with Clone Hero or Moonscraper.
 
 # Download
 To download the latest release, go to the [Releases section](https://github.com/TheBoxyBear/LyricEditor/releases)
